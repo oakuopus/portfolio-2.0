@@ -21,8 +21,8 @@ export default function Navbar(){
 
                 <title>Oliver Kuopus</title>
             </Head>
-            <div className="w-[100vw] h-[10vh] bg-white mt-0 flex">
-                <div className="w-[98vw] m-auto my-auto h-[9vh] flex">
+            <div className="h-[10vh] bg-white mt-0 flex">
+                <div className="w-[96vw] m-auto my-auto h-[9vh] flex">
                     <div className="w-[8vh] h-[8vh] ml-0 my-auto">
                         <Image
                             src={pfp}
@@ -35,7 +35,7 @@ export default function Navbar(){
                             Oliver Kuopus
                         </strong>
                     </span>
-                    <nav className="w-[40vw] h-[8vh] m-auto mr-0 flex items-center">
+                    <nav className="w-[40vw] h-[8vh] m-auto mr-0 pr-[1vw] flex items-center">
                         <ul className="flex justify-between md:text-[2vh] lg:text-[1.8vw] w-full items-center">
                             <li>
                                 <button onClick={toPage()}>

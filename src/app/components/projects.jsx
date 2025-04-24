@@ -1,3 +1,4 @@
+import Image from "next/image"
 import {
     Carousel,
     CarouselContent,
@@ -17,15 +18,28 @@ export default function Projects(){
                 </p>
             </div>
             <div>
-                {/* <Carousel>
-                    <CarouselContent>
-                        <CarouselItem>...</CarouselItem>
-                        <CarouselItem>...</CarouselItem>
-                        <CarouselItem>...</CarouselItem>
+                <Carousel className="w-[90vw] m-auto h-[80vh]">
+                    <CarouselContent className="w-[80vw] h-[80vh] m-auto">
+                        <CarouselItem className="w-[70vw]">
+                            <div>
+                                <Image
+                                    
+                                />
+                            </div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deleniti sapiente libero placeat temporibus voluptatibus harum similique molestiae cumque quis vitae enim ut sequi natus incidunt, unde fugit, aspernatur obcaecati asperiores. Nisi amet sequi, voluptates qui veniam aliquid eveniet, quisquam, ipsam illo reiciendis quam molestias beatae fugit minus temporibus. Adipisci.
+                            </div>
+                        </CarouselItem>
+                        <CarouselItem>
+
+                        </CarouselItem>
+                        <CarouselItem>
+
+                        </CarouselItem>
                     </CarouselContent>
                     <CarouselPrevious />
                     <CarouselNext />
-                </Carousel> */}
+                </Carousel>
             </div>
         </div>
     )

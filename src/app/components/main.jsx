@@ -9,9 +9,9 @@ import Link from "next/link";
 export default function Main(){
     return(
         <div className="flex">
-            <aside className="h-[20vh] w-[4vw] absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-tr-[1vw] rounded-br-[1vw]">
-                <div className="flex-col mt-[1vh]">
-                    <IconContext.Provider value={{color: "black", style:{width: "3vw", height: "6vh", margin: "auto"}}}>
+            <aside className="h-[22vh] w-[3vw] absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-tr-[1vw] rounded-br-[1vw]">
+                <div className="flex flex-col justify-evenly items-center h-full">
+                    <IconContext.Provider value={{color: "black", style:{width: "2vw", height: "5vh", margin: "auto"}}}>
                         <Link target="__blank" href={"https://www.linkedin.com/"}>
                             <FaLinkedinIn />
                         </Link>
