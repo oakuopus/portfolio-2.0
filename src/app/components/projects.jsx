@@ -18,15 +18,15 @@ export default function Projects(){
                     </span>
                 </p>
             </div>
-            <div>
-                <Carousel className="w-[80vw] mx-auto">
+            <div className="h-[90vh]">
+                <Carousel className="w-[80vw] h-full mx-auto">
                     <div>
-                        <CarouselContent className="m-auto h-[70vh]">
-                            <CarouselItem className="m-auto h-[70vh] flex pl-0">
+                        <CarouselContent className="m-auto h-[80vh]">
+                            <CarouselItem className="m-auto h-[80vh] flex pl-0">
                                 <div className="m-auto w-[85vw] flex flex-col">
                                     <div className="w-[90%] m-auto">
                                         <Image
-                                            className="w-[100%] aspect-[16/9] m-auto overflow-hidden"
+                                            className="w-[90%] aspect-[16/9] m-auto overflow-hidden"
                                             url={pfp}
                                         />
                                     </div>
@@ -35,11 +35,11 @@ export default function Projects(){
                                     </div>
                                 </div>
                             </CarouselItem>
-                            <CarouselItem className="m-auto h-[70vh] flex pl-0">
+                            <CarouselItem className="m-auto h-[80vh] flex pl-0">
                                 <div className="m-auto w-[85vw] flex flex-col">
                                     <div className="w-[90%] m-auto">
                                         <Image
-                                            className="w-[100%] aspect-[16/9] m-auto overflow-hidden"
+                                            className="w-[90%] aspect-[16/9] m-auto overflow-hidden"
                                             url={pfp}
                                         />
                                     </div>
@@ -48,11 +48,11 @@ export default function Projects(){
                                     </div>
                                 </div>
                             </CarouselItem>
-                            <CarouselItem className="m-auto h-[70vh] flex pl-0">
+                            <CarouselItem className="m-auto h-[80vh] flex pl-0">
                                 <div className="m-auto w-[85vw] flex flex-col">
                                     <div className="w-[90%] m-auto">
                                         <Image
-                                            className="w-[100%] aspect-[16/9] m-auto overflow-hidden"
+                                            className="w-[90%] aspect-[16/9] m-auto overflow-hidden"
                                             url={pfp}
                                         />
                                     </div>
