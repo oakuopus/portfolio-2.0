@@ -19,7 +19,7 @@ export default function Projects(){
                 </p>
             </div>
             <div className="h-[90vh]">
-                <Carousel className="w-[80vw] h-full mx-auto">
+                <Carousel className="w-[80vw] h-full mx-auto mb-[10vh]">
                     <div>
                         <CarouselContent className="m-auto h-[80vh]">
                             <CarouselItem className="m-auto h-[80vh] flex pl-0">
