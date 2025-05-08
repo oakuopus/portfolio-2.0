@@ -29,7 +29,7 @@ export default function Main(){
                     <strong>Hello, I'm Oliver Kuopus</strong>
                 </span>
                 <div className="mt-[2vh] w-[65vw] m-auto text-white text-2xl">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis consequatur unde aut ut quasi, dicta quisquam quam iusto quo odit.
+                    I am a full-stack developer looking to help you build your dream website. Review my qualifications below and contact me to setup a free appointment.
                 </div>
             </div>
         </div>
