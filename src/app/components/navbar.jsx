@@ -36,7 +36,7 @@ export default function Navbar(){
                         </strong>
                     </span>
                     <nav className="w-[40vw] h-[8vh] m-auto mr-0 pr-[1vw] flex items-center">
-                        <ul className="flex justify-between md:text-[2vh] lg:text-[1.8vw] w-full items-center">
+                        <ul className="flex justify-between md:text-[2vh] lg:text-[1.8vw] text-black w-full items-center">
                             <li>
                                 <button onClick={toPage()}>
                                     <span className="cursor-pointer">Home</span>

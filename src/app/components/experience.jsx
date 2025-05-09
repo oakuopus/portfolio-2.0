@@ -25,6 +25,7 @@ export default function Experience(){
                                     <Image
                                         className="w-16 h-16 m-auto mt-0"
                                         src={pfp}
+                                        alt="pfp"
                                     />
                                 </div>
                             </div>
@@ -40,6 +41,7 @@ export default function Experience(){
                                     <Image
                                         className="w-16 h-16 m-auto mt-0"
                                         src={pfp}
+                                        alt="pfp"
                                     />
                                 </div>
                             </div>
@@ -57,6 +59,7 @@ export default function Experience(){
                                     <Image
                                         className="w-16 h-16 m-auto mt-0"
                                         src={pfp}
+                                        alt="pfp"
                                     />
                                 </div>
                             </div>
@@ -72,6 +75,7 @@ export default function Experience(){
                                     <Image
                                         className="w-16 h-16 m-auto mt-0"
                                         src={pfp}
+                                        alt="pfp"
                                     />
                                 </div>
                             </div>
